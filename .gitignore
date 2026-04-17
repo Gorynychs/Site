@@ -1,0 +1,33 @@
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Dependencies
+node_modules/
+pnpm-lock.yaml
+yarn.lock
+package-lock.json
+
+# Build/Output
+dist/
+.next/
+coverage/
+*.log
+
+# OS/Editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Logs & Backups
+logs/
+backups/
+database/backups/
+
+# Temporary
+tmp/
+temp/
+*.swp
+*.swo
